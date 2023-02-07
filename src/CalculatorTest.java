@@ -19,7 +19,7 @@ class CalculatorTest {
     void fivePlusFiveEqualsTen() {
         // create object to test
         var cal = new Calculator();
-        assertEquals(10, cal.add (5, 6));
+        assertEquals(10, cal.add (5, 5));
     }
     @Test
     void twoTimesSixEqualsTwelve() {
